@@ -1,0 +1,61 @@
+# Professional Portfolio — Abhinav Tangi
+
+A lightweight, accessible, responsive front-end portfolio template showcasing projects, skills, and contact information. Built with semantic HTML, minimal CSS, and vanilla JavaScript. Ideal for personal use, demoing UI work, and as a starting point for portfolio customizations.
+
+## Features
+- Responsive hero/profile layout and project grid
+- Contact form with client-side validation
+- Accessible markup (landmarks, ARIA labels, keyboard-first links)
+- Simple, production-ready static site (no build step required)
+- Ready to deploy to GitHub Pages, Vercel, Netlify, etc.
+
+## Project structure (recommended for submission)
+- index.html
+- css/
+    - style.css         ← move inline or embedded styles here
+- js/
+    - script.js            ← move site scripts (form handling, year update) here
+- images/
+    - profile.jpg
+    - project-1.png
+    - project-2.png
+    - ...
+- README.md
+
+> Note: The provided index.html is self-contained for preview. For a production submission, extract CSS and JS into the structure above and update paths.
+
+## Getting started / Preview locally
+1. Clone or download the repository.
+2. Quick preview: open `index.html` in a browser.
+3. Recommended (serves files over HTTP):
+     - Python 3: `python3 -m http.server 8000` then visit `http://localhost:8000`
+     - Node (serve): `npx serve .` then visit the shown URL
+
+## Customization
+- Replace placeholder images in `images/` and update `src` attributes.
+- Update text, project links, and contact info in `index.html`.
+- Extract and extend CSS in `css/styles.css` (use CSS variables and utility classes).
+- Move inline scripts to `js/main.js` and include with `defer`.
+
+## Accessibility & Best Practices
+- Use semantic headings and landmarks for screen-reader navigation.
+- Ensure meaningful alt text for images.
+- Keep color contrast and focus outlines for keyboard users.
+- Validate the contact form inputs and optionally integrate a serverless form backend (Formspree, Netlify Forms, etc.) for production messaging.
+
+## Deployment
+- Push to a Git branch and deploy to:
+    - GitHub Pages — repository → Settings → Pages
+    - Vercel — import repo and deploy
+    - Netlify — drag & drop or connect repo
+No build step required for static deployment.
+
+## Contributing
+This is a personal portfolio template. Feel free to fork and customize. For improvements (styling, accessibility, small bug fixes), open a PR or issue with a brief description.
+
+## License
+MIT — see LICENSE file or add one for your project.
+
+## Contact
+Owner: Abhinav Tangi  
+Email: abhinavtangi@gmail.com

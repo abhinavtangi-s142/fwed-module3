@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Professional Portfolio — Abhinav Tangi</title>
+    <meta name="description" content="Professional portfolio showcasing projects, skills, and contact information." />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+
+    <!--
+        NOTE: This file is self-contained for quick preview.
+        For submission, split into:
+            - css/styles.css
+            - js/main.js
+            - images/ (place your images and update the src attributes)
+        Add a README.md and package files as described in the assignment.
+    -->
+
+    
+</head>
+<body>
+    <div class="container" id="top">
+        <header>
+            <a href="#top" class="brand" aria-label="Home">
+                <div class="logo">AT</div>
+                <div>
+                    <div style="font-weight:700">Abhinav Tangi</div>
+                    <div style="font-size:0.8rem;color:var(--muted)">Frontend Developer • Designer</div>
+                </div>
+            </a>
+
+            <nav aria-label="Primary navigation">
+                <div class="nav-links" id="nav">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="external">
+                    <a class="btn ghost" href="https://github.com/abhinavtangi-s142/" target="_blank" rel="noopener">GitHub</a>
+                    <a class="btn ghost" href="https://www.linkedin.com/in/abhinav-tangi-825159392/" target="_blank" rel="noopener">LinkedIn</a>
+                    <a class="btn" href="#projects">View Work</a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero" id="hero">
+                <div class="hero-left">
+                    <h1>Build Modern, Accessible Web Experiences — Fast.</h1>
+                    <p class="lead">I am a frontend developer focusing on responsive interfaces, performance, and delightful user experiences. I build production-ready sites and maintainable components.</p>
+                    <div class="hero-cta">
+                        <a class="btn" href="#projects">See Projects</a>
+                        <a class="btn ghost" href="#contact">Get in Touch</a>
+                    </div>
+                    <div style="margin-top:16px;color:var(--muted);font-size:0.95rem">Available for freelance & full-time roles · Remote-friendly</div>
+                </div>
+
+                <aside class="hero-right" aria-label="Profile card">
+                    <div class="profile">
+                        <img src="imgs/profile.png" alt="Profile photo" style="width:100%;height:100%;object-fit:cover" />
+                    </div>
+                    <div style="text-align:center">
+                        <div style="font-weight:700">Abhinav Tangi</div>
+                        <div style="color:var(--muted);font-size:0.9rem">Frontend Engineer</div>
+                    </div>
+                    <div class="skills" aria-hidden="false">
+                        <div class="skill">HTML</div>
+                        <div class="skill">CSS</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">React</div>
+                        <div class="skill">Accessibility</div>
+                    </div>
+                    <div style="display:flex;gap:8px;margin-top:6px;">
+                        <a class="btn" href="https://github.com/abhinavtangi-s142/" target="_blank" rel="noopener">GitHub</a>
+                        <a class="btn ghost" href="https://www.linkedin.com/in/abhinav-tangi-825159392/" target="_blank" rel="noopener">LinkedIn</a>
+                    </div>
+                </aside>
+            </section>
+
+            <section id="about" aria-labelledby="about-heading">
+                <h2 id="about-heading">About Me</h2>
+                <p class="lead">I design and develop user-centric digital products. I focus on performance, maintainability, and accessibility. I love collaborating with teams to ship features users love.</p>
+
+                <div class="about-grid">
+                    <div>
+                        <p class="bio">I have X years of experience building responsive web apps and component libraries. My stack includes modern HTML, CSS (Flexbox & Grid), vanilla JavaScript, and frameworks where appropriate. I prioritize semantic markup, progressive enhancement, and accessibility.</p>
+
+                        <h3 style="margin-top:18px;margin-bottom:8px;font-size:1rem">Selected Skills</h3>
+                        <div style="display:flex;flex-wrap:wrap;gap:10px">
+                            <span class="tag">Responsive Design</span>
+                            <span class="tag">Performance</span>
+                            <span class="tag">Accessibility (a11y)</span>
+                            <span class="tag">Testing</span>
+                            <span class="tag">Design Systems</span>
+                        </div>
+                    </div>
+
+                    <aside>
+                        <div class="stats">
+                            <div class="stat"><strong>5+</strong><span style="color:var(--muted)">Years Experience</span></div>
+                            <div class="stat"><strong>30+</strong><span style="color:var(--muted)">Projects Completed</span></div>
+                            <div class="stat"><strong>Remote</strong><span style="color:var(--muted)">Available</span></div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+
+            <section id="projects" aria-labelledby="projects-heading">
+                <h2 id="projects-heading">Projects</h2>
+                <p class="lead">Featured projects demonstrating responsive layouts, interactions, and real-world solutions. Click "Live" to visit the demonstration or "Code" to view the repository.</p>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project" aria-labelledby="p1-title">
+                        <img src="imgs/p1.png" alt="Project 1 screenshot">
+                        <div style="display:flex;justify-content:space-between;align-items:center">
+                            <div>
+                                <h3 id="p1-title" style="margin:6px 0 2px 0;font-size:1rem">Responsive Dashboard UI</h3>
+                                <div style="color:var(--muted);font-size:0.9rem">A performant dashboard with charts, filters, and components optimized for accessibility.</div>
+                            </div>
+                            <div style="display:flex;flex-direction:column;gap:8px">
+                                <a class="btn ghost" href="https://example.com/" target="_blank" rel="noopener">Live</a>
+                                <a class="btn" href="https://github.com/abhinavtangi-s142/Website-1/blob/main/index.html" target="_blank" rel="noopener">Code</a>
+                            </div>
+                        </div>
+                        <div class="tags" aria-hidden="true">
+                            <span class="tag">HTML</span><span class="tag">CSS Grid</span><span class="tag">vanilla JS</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project" aria-labelledby="p2-title">
+                        <img src="imgs/p2.png" alt="Project 2 screenshot">
+                        <div style="display:flex;justify-content:space-between;align-items:center">
+                            <div>
+                                <h3 id="p2-title" style="margin:6px 0 2px 0;font-size:1rem">E-commerce Landing</h3>
+                                <div style="color:var(--muted);font-size:0.9rem">An accessible, responsive store front with checkout flow and animation enhancements.</div>
+                            </div>
+                            <div style="display:flex;flex-direction:column;gap:8px">
+                                <a class="btn ghost" href="https://example.com/" target="_blank" rel="noopener">Live</a>
+                                <a class="btn" href="https://github.com/abhinavtangi-s142/Website-1/blob/main/hannah.html" target="_blank" rel="noopener">Code</a>
+                            </div>
+                        </div>
+                        <div class="tags" aria-hidden="true">
+                            <span class="tag">Responsive</span><span class="tag">Performance</span><span class="tag">a11y</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project" aria-labelledby="p3-title">
+                        <img src="imgs/p3.png" alt="Project 3 screenshot">
+                        <div style="display:flex;justify-content:space-between;align-items:center">
+                            <div>
+                                <h3 id="p3-title" style="margin:6px 0 2px 0;font-size:1rem">Interactive Docs</h3>
+                                <div style="color:var(--muted);font-size:0.9rem">Documentation site with live examples and embedded playground for components.</div>
+                            </div>
+                            <div style="display:flex;flex-direction:column;gap:8px">
+                                <a class="btn ghost" href="https://example.com/" target="_blank" rel="noopener">Live</a>
+                                <a class="btn" href="https://github.com/abhinavtangi-s142/Website-1/blob/main/alex.html" target="_blank" rel="noopener">Code</a>
+                            </div>
+                        </div>
+                        <div class="tags" aria-hidden="true">
+                            <span class="tag">Docs</span><span class="tag">UX</span><span class="tag">Playground</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" aria-labelledby="contact-heading">
+                <h2 id="contact-heading">Contact</h2>
+                <p class="lead">Have a project, question, or opportunity? Send a message and I'll get back to you.</p>
+
+                <div class="contact-grid">
+                    <div>
+                        <form id="contactForm" novalidate>
+                            <label for="name">Name</label>
+                            <input id="name" name="name" type="text" placeholder="Your Name" required minlength="2" />
+
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" placeholder="you@domain.com" required />
+
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..." required minlength="10"></textarea>
+
+                            <div class="form-actions">
+                                <button class="btn" type="submit">Send Message</button>
+                                <button class="btn ghost" type="reset">Reset</button>
+                            </div>
+                            <div id="formFeedback" aria-live="polite" style="margin-top:8px"></div>
+                        </form>
+                    </div>
+
+                    <aside style="display:flex;flex-direction:column;gap:12px;justify-content:center">
+                        <div style="background:var(--glass);padding:12px;border-radius:10px;">
+                            <strong>Email</strong>
+                            <div style="color:var(--muted)">abhinavtangi@gmail.com</div>
+                        </div>
+                        <div style="background:var(--glass);padding:12px;border-radius:10px;">
+                            <strong>Location</strong>
+                            <div style="color:var(--muted)">Remote — Based in City, Country</div>
+                        </div>
+                        <div style="background:var(--glass);padding:12px;border-radius:10px;">
+                            <strong>Availability</strong>
+                            <div style="color:var(--muted)">Open to new opportunities</div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div style="font-size:0.9rem;color:var(--muted)">© <span id="year"></span> Abhinav Tangi — Built with HTML, CSS & JavaScript</div>
+            <div class="socials">
+                <a class="btn ghost" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn ghost" href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+                <a class="btn ghost" href="https://vercel.com/" target="_blank" rel="noopener">Deploy</a>
+            </div>
+        </footer>
+    </div>
+   
+</body>
+</html>
+
